@@ -11,7 +11,7 @@ export default function Wavify() {
             </S.Wavify>
             <S.Wavify mask="url(#mask2)" fill='yellow' options={{ height: 15, amplitude: 75, points: 2 }}>
                 <mask id="mask2">
-                    <path d="M100,100 L90 90" fill="white" />
+                    <path d="M26,32 L22,48 L32,38 L42,48 L38,32 L50,24 L36,24 L32,10 L28,24 L14,24 Z" fill="white" />
                 </mask>
             </S.Wavify>
             {/* <S.Wavify fill='blue' options={{ height: 250, amplitude: 300, points: 1}} /> */}
