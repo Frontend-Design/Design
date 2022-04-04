@@ -1,7 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Home/Home";
-import Loading from "./Loading/Loading";
-import Wavify from "./Wavify/Wavify";
+import Cyilnder from "./Components/Cylinder/Cylinder";
+import Home from "./Components/Home/Home";
+import Loading from "./Components/Loading/Loading";
+import NeonLightBtn from "./Components/NeonLightBtn/NeonLightBtn";
+import Wavify from "./Components/Wavify/Wavify";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/loading" element={<Loading />} />
         <Route path="/wavify" element={<Wavify />} />
+        <Route path="/neonlightbtn" element={<NeonLightBtn />} />
+        <Route path="/cylinder" element={<Cyilnder />} />
       </Routes>
     </BrowserRouter>
   );

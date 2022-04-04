@@ -58,7 +58,7 @@ export const Point = styled.span<StyledProps>`
         0%{
             transform: scale(1);
         }
-        80%, 100%{
+        100%{
             transform: scale(0);
         }
     }
