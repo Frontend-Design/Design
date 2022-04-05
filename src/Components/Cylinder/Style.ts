@@ -50,7 +50,7 @@ export const CylinderText = styled.span<StyledProps>`
     transform-style: preserve-3d;
     text-shadow: 0 5px 15px rgba(0.0.0.0.25);
     --i: ${(props) => (props.num)};
-    transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(100px);
+    transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(105px);
 
     i:nth-child(1){
         font-style: initial;

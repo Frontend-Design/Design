@@ -26,30 +26,32 @@ export const BtnLink = styled(Link)<StyledProps>`
     text-decoration: none;
     font-size: 24px;
     overFlow: hidden;
-    transition: 0.2s;
+    transition: 0.2s; // CSS 속성을 변경할 때 에니매이션 속도 조절
 
     &:hover{
         color: black;
         background: ${(props) => (props.BtnColor)};
-        box-shadow: 0 0 10px ${(props) => (props.BtnColor)}, 0 0 40px ${(props) => (props.BtnColor)}, 0 0 80px ${(props) => (props.BtnColor)};
+        box-shadow: 0 0 10px ${(props) => (props.BtnColor)}, 
+                    0 0 40px ${(props) => (props.BtnColor)}, 
+                    0 0 80px ${(props) => (props.BtnColor)};
         transition-delay: 1.1s;
     }
 
-    &:hover span:nth-child(1){
+    &:hover span:nth-child(1){ // 버튼의 위쪽 border
         left: 100%;
         transition: 1s;
     }
-    &:hover span:nth-child(2){
+    &:hover span:nth-child(2){ // 버튼의 오른쪽 border
         top: 100%;
         transition: 0.8s;
         transition-delay: 0.25s;
     }
-    &:hover span:nth-child(3){
+    &:hover span:nth-child(3){ // 버튼의 아래쪽 border
         right: 100%;
         transition: 1s;
         transition-delay: 0.5s;
     }
-    &:hover span:nth-child(4){
+    &:hover span:nth-child(4){ // 버튼의 왼쪽 border
         bottom: 100%;
         transition: 0.8s;
         transition-delay: 0.8s;
@@ -61,28 +63,28 @@ export const ActiveBorder = styled.span<StyledProps>`
     position: absolute;
     display: black;
 
-    &:nth-child(1){
+    &:nth-child(1){ // 버튼의 위쪽 border
         top: 0;
         left: -100%;
         width: 100%;
         height: 2px;
         background: linear-gradient(90deg, transparent, ${(props) => (props.BtnColor)});
     }
-    &:nth-child(2){
+    &:nth-child(2){ // 버튼의 오른쪽 border
         top: -100%;
         right: 0%;
         width: 2px;
         height: 100%;
         background: linear-gradient(180deg, transparent, ${(props) => (props.BtnColor)});
     }
-    &:nth-child(3){
+    &:nth-child(3){ // 버튼의 아래쪽 border
         bottom: 0;
         right: -100%;
         width: 100%;
         height: 2px;
         background: linear-gradient(270deg, transparent, ${(props) => (props.BtnColor)});
     }   
-    &:nth-child(4){
+    &:nth-child(4){ // 버튼의 왼쪽 border
         bottom: -100%;
         left: 0;
         width: 2px;
