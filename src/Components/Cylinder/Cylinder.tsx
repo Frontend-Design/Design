@@ -14,6 +14,13 @@ export default function Cyilnder() {
                         ))
                     }
                 </CylinderBox>
+                <CylinderBox>
+                    {
+                        nums.map((num: number) => (
+                            <CylinderText num={num}><i>박영재</i> is <i>개</i>쉨키</CylinderText>
+                        ))
+                    }
+                </CylinderBox>
             </CylinderLayout>
         </Background>
     );

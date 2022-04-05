@@ -22,6 +22,7 @@ export const CylinderLayout = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 500px;
 `
 
 export const CylinderBox = styled.div`
@@ -30,10 +31,10 @@ export const CylinderBox = styled.div`
 
     @keyframes animate {
         0%{
-            transform: perspective(1000px) rotateX(0deg) rotate(35deg);
+            transform: perspective(1000px) rotateX(0deg)  rotateY(0deg) rotate(35deg);
         }
         100%{
-            transform: perspective(1000px) rotateX(360deg) rotate(35deg);
+            transform: perspective(1000px) rotateX(360deg) rotateY(360deg) rotate(35deg);
         }
     }
 ` 
