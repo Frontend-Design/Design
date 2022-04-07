@@ -6,7 +6,13 @@ export const WavifyLayout = styled.div`
     height: 100vh;
 `
 
-export const Wavify = styled(Wave)`
-    width: auto;
-    height: auto;
+export const FigureWave = styled(Wave)`
+
+`
+
+export const WaterWave = styled(Wave)`
+    position: fixed;
+    height: 30vh;
+    bottom: 0;
+    left: 0;
 `

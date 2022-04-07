@@ -29,9 +29,10 @@ export const RainLine = styled.i<StyledProps>`
     animation-duration: ${props => props.randomduration};
 
 
-    &:nth-child(3n){ background: linear-gradient(transparent, #0ff)};
-    &:nth-child(3n+1){ background: linear-gradient(transparent, #0f0)};
-    &:nth-child(3n+2){ background: linear-gradient(transparent, #f00)};
+    &:nth-child(4n){ background: linear-gradient(transparent, #0ff)};
+    &:nth-child(4n+1){ background: linear-gradient(transparent, #0f0)};
+    &:nth-child(4n+2){ background: linear-gradient(transparent, #f00)};
+    &:nth-child(4n+3){ background: linear-gradient(transparent, #ff0)};
 
     @keyframes animate {
         0%{ transform: translateY(-200px)};

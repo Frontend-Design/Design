@@ -5,7 +5,7 @@ export default function ColorfulRain() {
 
     let arr: Array<number> = [];
 
-    for (let i = 0, amount = 80; i < amount; i++) {
+    for (let i = 0, amount = 50; i < amount; i++) {
         arr.push(i);
     }
     console.log(arr);

@@ -16,49 +16,6 @@ export const Background = styled.div`
     font-family: consolas;
 `
 
-export const BtnLink = styled(Link)<StyledProps>`
-    position: relative;
-    display: inline-block;
-    padding: 15px 30px;
-    color: ${(props) => (props.BtnColor)};
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    text-decoration: none;
-    font-size: 24px;
-    overFlow: hidden;
-    transition: 0.2s; // CSS 속성을 변경할 때 에니매이션 속도 조절
-
-    &:hover{
-        color: black;
-        background: ${(props) => (props.BtnColor)};
-        box-shadow: 0 0 10px ${(props) => (props.BtnColor)}, 
-                    0 0 40px ${(props) => (props.BtnColor)}, 
-                    0 0 80px ${(props) => (props.BtnColor)};
-        transition-delay: 1.1s;
-    }
-
-    &:hover span:nth-child(1){ // 버튼의 위쪽 border
-        left: 100%;
-        transition: 1s;
-    }
-    &:hover span:nth-child(2){ // 버튼의 오른쪽 border
-        top: 100%;
-        transition: 0.8s;
-        transition-delay: 0.25s;
-    }
-    &:hover span:nth-child(3){ // 버튼의 아래쪽 border
-        right: 100%;
-        transition: 1s;
-        transition-delay: 0.5s;
-    }
-    &:hover span:nth-child(4){ // 버튼의 왼쪽 border
-        bottom: 100%;
-        transition: 0.8s;
-        transition-delay: 0.8s;
-    }
-
-`
-
 export const ActiveBorder = styled.span<StyledProps>`
     position: absolute;
     display: black;
@@ -92,3 +49,47 @@ export const ActiveBorder = styled.span<StyledProps>`
         background: linear-gradient(0deg, transparent, ${(props) => (props.BtnColor)});
     }
 `
+
+export const BtnLink = styled(Link)<StyledProps>`
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: ${(props) => (props.BtnColor)};
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overFlow: hidden;
+    transition: 0.2s; // CSS 속성을 변경할 때 에니매이션 속도 조절
+
+    &:hover{
+        color: black;
+        background: ${(props) => (props.BtnColor)};
+        box-shadow: 0 0 10px ${(props) => (props.BtnColor)}, 
+                    0 0 40px ${(props) => (props.BtnColor)}, 
+                    0 0 80px ${(props) => (props.BtnColor)};
+        transition-delay: 1.1s;
+    }
+
+    &:hover ${ActiveBorder}:nth-child(1){ // 버튼의 위쪽 border: ;
+        left: 100%;
+        transition: 1s;
+    }
+    &:hover ${ActiveBorder}:nth-child(2){ // 버튼의 오른쪽 border
+        top: 100%;
+        transition: 0.8s;
+        transition-delay: 0.25s;
+    }
+    &:hover ${ActiveBorder}:nth-child(3){ // 버튼의 아래쪽 border
+        right: 100%;
+        transition: 1s;
+        transition-delay: 0.5s;
+    }
+    &:hover ${ActiveBorder}:nth-child(4){ // 버튼의 왼쪽 border
+        bottom: 100%;
+        transition: 0.8s;
+        transition-delay: 0.8s;
+    }
+
+`
+

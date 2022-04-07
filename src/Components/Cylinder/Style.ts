@@ -1,7 +1,13 @@
 import styled from "styled-components";
 
-type StyledProps = {
+type placeprop = {
     num: number;
+}
+type rotateprops = {
+    X: string;
+    Y: string;
+    Z: string;
+    time: string;
 }
 
 export const Background = styled.div`
@@ -25,21 +31,25 @@ export const CylinderLayout = styled.div`
     gap: 500px;
 `
 
-export const CylinderBox = styled.div`
+export const CylinderBox = styled.div<rotateprops>`
     transform-style: preserve-3d;
-    animation: animate 15s linear infinite;
+    animation: animate ${props => props.time} linear infinite;
+    --X: ${props => props.X};
+    --Y: ${props => props.Y};
+    --Z: ${props => props.Z};
 
     @keyframes animate {
         0%{
-            transform: perspective(1000px) rotateX(0deg)  rotateY(0deg) rotate(35deg);
+            transform: perspective(1000px) rotateX(0deg)  rotateY(0deg) rotateZ(0deg);
         }
         100%{
-            transform: perspective(1000px) rotateX(360deg) rotateY(360deg) rotate(35deg);
+            /* transform: perspective(1000px) rotateX(360deg) rotateY(360deg) rotateZ(360deg); */
+            transform: perspective(1000px) rotateX(var(--X)) rotateY(var(--Y)) rotateZ(var(--Z)) ;
         }
     }
 ` 
 
-export const CylinderText = styled.span<StyledProps>`
+export const CylinderText = styled.span<placeprop>`
     position: absolute;
     color: lightgray;
     font-size: 3.5em;

@@ -43,6 +43,7 @@ export const Point = styled.span<StyledProps>`
 
     &::before{
         content: ''; // 공백으로 요소 지정
+        transform: scale(0);
         position: absolute;
         top: 0;
         left: 0;
