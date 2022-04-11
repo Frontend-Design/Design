@@ -1,27 +1,32 @@
 import styled from "styled-components";
 
-type StyledProps = {
+type placedprop = {
     num: number;
 }
 
-export const LoadingLayout = styled.section`
+type colorprop = {
+    color: any;
+}
+
+export const LoadingLayout = styled.section<colorprop>`
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #042104;
     animation: changeColor 10s linear infinite;
+    --color: ${prop => prop.color}deg;
 
     @keyframes changeColor {
         // filter : 흐림 효과나 색상 변형 등 그래픽 효과를 요소에 적용
         // hue-rotate( 각도 ) : 색조, 색상을 변경. 각도(deg)를 지정하여 변화를 줌
 
         0% {
-            filter: hue-rotate(0deg); 
+            filter: hue-rotate(var(--color)); 
         }
 
         100% {
-            filter: hue-rotate(360deg);
+            filter: hue-rotate(var(--color)+360);
         }
     }
 `
@@ -32,7 +37,7 @@ export const LoaderBox = styled.div`
     height: 120px;
 `
 
-export const Point = styled.span<StyledProps>`
+export const Point = styled.span<placedprop>`
     position: absolute;
     top: 0;
     left: 0;
