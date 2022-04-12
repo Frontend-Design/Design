@@ -12,9 +12,10 @@ export const Background = styled.div`
     padding: 0;
     box-sizing: border-box;
     background-color: black;
-    overflow: hidden;
     height: 100vh;
-    `
+    overflow: hidden;
+`
+
 export const RainLine = styled.i<StyledProps>`
     position: absolute;
     height: 200px;
@@ -35,7 +36,7 @@ export const RainLine = styled.i<StyledProps>`
     &:nth-child(4n+3){ background: linear-gradient(transparent, #ff0)};
 
     @keyframes animate {
-        0%{ transform: translateY(-200px)};
-        100%{ transform: translateY(calc(100vh))};
+        0%{ transform: translateY(-200px);}
+        100%{ transform: translateY(100vh);}
     }
 `

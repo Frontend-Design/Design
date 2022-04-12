@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ColorfulRain from "./Components/ColorfulRain/ColorfulRain";
 import Cyilnder from "./Components/Cylinder/Cylinder";
 import Home from "./Components/Home/Home";
+import ImageRoop from "./Components/ImageRoop/ImageRoop";
 import Loading from "./Components/Loading/Loading";
 import NeonLightBtn from "./Components/NeonLightBtn/NeonLightBtn";
 import Wavify from "./Components/Wavify/Wavify";
@@ -16,6 +17,7 @@ function App() {
         <Route path="/neonlightbtn" element={<NeonLightBtn />} />
         <Route path="/cylinder" element={<Cyilnder />} />
         <Route path="/colorfulrain" element={<ColorfulRain />} />
+        <Route path="/imageRoop" element={<ImageRoop />} />
       </Routes>
     </BrowserRouter>
   );
