@@ -9,6 +9,7 @@ export default function Home() {
             <Link to='/cylinder'><p>3D Cylinder</p></Link>
             <Link to='/colorfulrain'><p>Colorful Rain</p></Link>
             <Link to='/imageroop'><p>Background Image Roop</p></Link>
+            <Link to='/scrolleffects'><p>Scroll Effects Page</p></Link>
         </>
     );
 }
