@@ -5,26 +5,25 @@ type StyleProp = {
 }
 
 export const Background = styled.div`
-    height: 200vh;
 `
 
 export const ProgressBar = styled.div<StyleProp>`
     position: fixed;
-    top: 0;
-    right: 0;
-    height: ${prop => prop.progresswidth};
-    width: 10px;
-    background: linear-gradient(to top, #008aff, #00ffe7);
+    bottom: 0;
+    left: 0;
+    width: ${prop => prop.progresswidth};
+    height: 10px;
+    background: linear-gradient(to left, #008aff, #00ffe7);
     animation: animate 5s linear infinite;
 
     &::before{
         content:'';
         position: absolute;
-        top: 0;
-        right: 0;
+        bottom: 0;
+        left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(to ltop, #008aff, #00ffe7);
+        background: linear-gradient(to left, #008aff, #00ffe7);
         filter: blue(10px);
     }
 
@@ -42,9 +41,9 @@ export const ProgressBar = styled.div<StyleProp>`
 
 export const ScrollPath = styled.div`
     position: fixed;
-    top: 0;
-    right: 0;
-    width: 10px;
-    height: 100%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
     background: rgba(255,255,255,0.05);
 `
