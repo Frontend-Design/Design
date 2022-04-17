@@ -9,4 +9,8 @@ export const HeroImageLayout = styled.div`
 export const HeroImageBox = styled.div`
     width: 100%;
     height: 100%;
+    
+    img {
+        max-height: 30vh;
+    }
 `
