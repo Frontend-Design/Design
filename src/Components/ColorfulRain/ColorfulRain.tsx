@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Background, RainLine } from "./Style";
+import * as S from './Style'
 
 export default function ColorfulRain() {
 
@@ -10,11 +10,12 @@ export default function ColorfulRain() {
     }
 
     return (
-        <Background>
+        <S.Background>
             {
+                
                 arr.map((index) => {
                     return (
-                        <RainLine key={index} 
+                        <S.RainLine key={index} 
                         randomwidth={0.2 + Math.random() * 5 + 'px'} 
                         randomleft={Math.floor(Math.random() * window.innerWidth - 22) + 'px'} 
                         randomdelay={Math.random() * -20 + 's'} 
@@ -23,6 +24,6 @@ export default function ColorfulRain() {
                 })
             }
 
-        </Background>
+        </S.Background>
     );
 }

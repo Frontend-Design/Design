@@ -5,11 +5,14 @@ export default function HeroIamges() {
 
     return (
         <>
-            {/* <HeroImageLayout>
+            <HeroImageLayout>
+                <p>◀</p>
+                <p>▶</p>
                 <HeroImageBox>
-                <img src={require("../../../Assets/pexels-pixabay.jpg")} />
-            </HeroImageBox>
-        </HeroImageLayout> */}
+                    <img src={require("../../../Assets/pexels-pixabay.jpg")} />
+                    <img src={require("../../../Assets/rain.jpg")} />
+                </HeroImageBox>
+            </HeroImageLayout>
         </>
     );
 }
