@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeroImageLayout = styled.div`
     z-index: 10;
-    
+    display: flex;
     
     p{
         color: #fff;
