@@ -1,7 +1,11 @@
 import ColorfulRain from "../../ColorfulRain/ColorfulRain";
 import { HeroImageBox, HeroImageLayout } from "./Style";
+import rain from "../../../Assets/rain.jpg";
+import blog from "../../../Assets/pexels-pixabay.jpg";
 
 export default function HeroIamges() {
+
+    const ImageArray:Array<string> = [rain, blog];
 
     return (
         <>
@@ -9,8 +13,15 @@ export default function HeroIamges() {
                 <p>◀</p>
                 <p>▶</p>
                 <HeroImageBox>
-                    <img src={require("../../../Assets/pexels-pixabay.jpg")} />
-                    <img src={require("../../../Assets/rain.jpg")} />
+                    {
+                        ImageArray.map((image:string) => {
+                            return(
+                                <img src={image} alt="img"/>
+                            );
+
+                        })
+                    }
+                    {/* <img src={rain}/> */}
                 </HeroImageBox>
             </HeroImageLayout>
         </>

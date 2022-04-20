@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
+import { HomeLayer } from "./Style";
 
 export default function Home() {
     return(
-        <>
-            <Link to='/loading'><p>Loading</p></Link>
-            <Link to='/wavify'><p>Wavify</p></Link>
-            <Link to='/neonlightbtn'><p>Neon Light Button</p></Link>
-            <Link to='/cylinder'><p>3D Cylinder</p></Link>
-            <Link to='/colorfulrain'><p>Colorful Rain</p></Link>
-            <Link to='/imageroop'><p>Background Image Roop</p></Link>
-            <Link to='/scrolleffects'><p>Scroll Effects Page</p></Link>
-        </>
+        <HomeLayer>
+            <Link to='/loading'>Loading</Link>
+            <Link to='/wavify'>Wavify</Link>
+            <Link to='/neonlightbtn'>Neon Light Button</Link>
+            <Link to='/cylinder'>3D Cylinder</Link>
+            <Link to='/colorfulrain'>Colorful Rain</Link>
+            <Link to='/imageroop'>Background Image Roop</Link>
+            <Link to='/scrolleffects'>Scroll Effects Page</Link>
+        </HomeLayer>
     );
 }

@@ -14,7 +14,7 @@ export const ProgressBar = styled.div<StyleProp>`
     width: ${prop => prop.progresswidth};
     height: 10px;
     background: linear-gradient(to left, #008aff, #00ffe7);
-    animation: animate 5s linear infinite;
+    animation: animate 3s linear infinite;
 
     &::before{
         content:'';
@@ -28,10 +28,10 @@ export const ProgressBar = styled.div<StyleProp>`
     }
 
     @keyframes animate {
-        0%, 100%{
+        0%{
             filter: hue-rotate(0deg);
         }   
-        50%{
+        100%{
             filter: hue-rotate(360deg);
         }
     }
