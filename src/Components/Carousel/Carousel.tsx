@@ -1,8 +1,8 @@
-import ColorfulRain from "../../ColorfulRain/ColorfulRain";
+import ColorfulRain from "../ColorfulRain/ColorfulRain";
 import * as S from "./Style";
-import rain from "../../../Assets/rain.jpg";
-import blog from "../../../Assets/pexels-pixabay.jpg";
-import background from "../../../Assets/background.jpg";
+import rain from "../../Assets/rain.jpg";
+import blog from "../../Assets/pexels-pixabay.jpg";
+import background from "../../Assets/background.jpg";
 import { useState } from "react";
 
 function NextArrow(props: any) {
@@ -44,7 +44,7 @@ export default function HeroImages() {
         centerMode: true,   // 중앙정렬
         centerPadding: "0px", // 0px 하면 슬라이드 끝쪽 이미지가 안잘림
         prevArrow: <PrevArrow />,   // 슬라이드 좌우 넘기기 커스텀 버튼
-        nextArrow: <NextArrow />  //슬라이드 좌우 넘기기 커스텀 버튼
+        nextArrow: <NextArrow />,  //슬라이드 좌우 넘기기 커스텀 버튼
     };
 
     return (

@@ -6,10 +6,13 @@ import Loading from "./Components/Loading/Loading";
 import NeonLightBtn from "./Components/NeonLightBtn/NeonLightBtn";
 import Wavify from "./Components/Wavify/Wavify";
 import ScrollEffects from "./Pages/ScrollEffects/ScrollEffectsPage";
+import Carousel from "./Components/Carousel/Carousel";
+import { GlobalStyle } from "./Style/GlobalStyle";
 
 function App() {
   return (
     <BrowserRouter>
+    <GlobalStyle/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/loading" element={<Loading />} />
@@ -17,6 +20,7 @@ function App() {
         <Route path="/neonlightbtn" element={<NeonLightBtn />} />
         <Route path="/cylinder" element={<Cyilnder />} />
         <Route path="/colorfulrain" element={<ColorfulRain />} />
+        <Route path="/carousel" element={<Carousel />} />
         <Route path="/scrolleffects" element={<ScrollEffects />} />
       </Routes>
     </BrowserRouter>
