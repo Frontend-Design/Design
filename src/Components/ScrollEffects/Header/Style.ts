@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const HeaderLayout = styled.div`
     width: 100vw;
     height: 10vh;
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
 
     img{
         height: 50%;
@@ -16,4 +16,6 @@ export const Navigation = styled.ul`
     width: 30%;
     display: flex;
     gap: 10px;
+    position: relative;
+    right: 0;
 `
