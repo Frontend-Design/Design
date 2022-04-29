@@ -17,5 +17,10 @@ export const Navigation = styled.ul`
     width: 30%;
     display: flex;
     gap: 10px;
-    /* display: flexbox; */
+    display: flex;
+    align-items: center;
+
+    svg {
+        height: 50px;
+    }
 `
