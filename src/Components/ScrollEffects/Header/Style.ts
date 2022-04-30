@@ -21,6 +21,6 @@ export const Navigation = styled.ul`
     align-items: center;
 
     svg {
-        height: 50px;
+        height: 1.4em;
     }
 `
