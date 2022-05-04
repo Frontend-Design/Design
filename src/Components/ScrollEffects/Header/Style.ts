@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const HeaderLayout = styled.div`
-    width: 100vw;
+    width: calc(100vw - 30px);
     height: 10vh;
-    display: flexbox;
+    display: flex;
     align-items: center;
-    justify-content: space-around;
-
+    margin-left: 30px;
     img{
         height: 50%;
         background: #fff;

@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { GlobalStyle } from "./Style/GlobalStyle";
 import ColorfulRain from "./Components/ColorfulRain/ColorfulRain";
 import Cyilnder from "./Components/Cylinder/Cylinder";
 import Home from "./Components/Home/Home";
@@ -7,12 +8,12 @@ import NeonLightBtn from "./Components/NeonLightBtn/NeonLightBtn";
 import Wavify from "./Components/Wavify/Wavify";
 import ScrollEffects from "./Pages/ScrollEffects/ScrollEffectsPage";
 import Carousel from "./Components/Carousel/Carousel";
-import { GlobalStyle } from "./Style/GlobalStyle";
+import Menubar from "./Components/ScrollEffects/Menubar/Menubar";
 
 function App() {
   return (
     <BrowserRouter>
-    <GlobalStyle/>
+      <GlobalStyle />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/loading" element={<Loading />} />
@@ -22,6 +23,7 @@ function App() {
         <Route path="/colorfulrain" element={<ColorfulRain />} />
         <Route path="/carousel" element={<Carousel />} />
         <Route path="/scrolleffects" element={<ScrollEffects />} />
+        <Route path="/menubar" element={<Menubar />} />
       </Routes>
     </BrowserRouter>
   );

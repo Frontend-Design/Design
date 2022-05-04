@@ -12,6 +12,7 @@ export default function Home() {
             <Link to='/imageroop'>Background Image Roop</Link>
             <Link to='/carousel'>Carousel</Link>
             <Link to='/scrolleffects'>Scroll Effects Page</Link>
+            <Link to='/menubar'>Menubar</Link>
         </HomeLayer>
     );
 }
