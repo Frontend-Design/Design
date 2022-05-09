@@ -12,14 +12,13 @@ export default function ColorfulRain() {
     return (
         <S.Background>
             {
-                
                 arr.map((index) => {
                     return (
                         <S.RainLine key={index} 
                         randomwidth={0.2 + Math.random() * 5 + 'px'} 
                         randomleft={Math.floor(Math.random() * window.innerWidth - 22) + 'px'} 
                         randomdelay={Math.random() * -20 + 's'} 
-                        randomduration={Math.random() * 5 + 1 + 's'} />
+                        randomduration={Math.random() * 5 + 1 + 's'} />                        
                     );
                 })
             }

@@ -21,9 +21,7 @@ function App() {
         <Route path="/neonlightbtn" element={<NeonLightBtn />} />
         <Route path="/cylinder" element={<Cyilnder />} />
         <Route path="/colorfulrain" element={<ColorfulRain />} />
-        <Route path="/carousel" element={<Carousel />} />
         <Route path="/scrolleffects" element={<ScrollEffects />} />
-        <Route path="/menubar" element={<Menubar />} />
       </Routes>
     </BrowserRouter>
   );
