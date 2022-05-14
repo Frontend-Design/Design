@@ -19,11 +19,10 @@ export default function Menubar() {
                 </S.UserBox>
                 <S.MenuToggle onClick={() => setToggle(!toggle)} toggle={toggle}></S.MenuToggle>
                 <S.Menu>
-                    <ul>
                         <li>설정</li>
                         <li>프로필</li>
                         <li><FontAwesomeIcon icon={faUser} /></li>
-                    </ul>
+                        <li>로그아웃</li>
                 </S.Menu>
             </S.Navigation>
         </>

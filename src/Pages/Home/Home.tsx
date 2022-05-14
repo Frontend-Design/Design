@@ -9,6 +9,7 @@ export default function Home() {
             <Link to='/neonlightbtn'>Neon Light Button</Link>
             <Link to='/cylinder'>3D Cylinder</Link>
             <Link to='/colorfulrain'>Colorful Rain</Link>
+            <Link to='/menuindicator'>Arrow Menu Indicator</Link>
             <Link to='/scrolleffects'>Scroll Effects Page</Link>
         </HomeLayer>
     );
