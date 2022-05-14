@@ -18,6 +18,7 @@ export default function MenuIndicator() {
         // firstList.current.focus();
         setMarkerTop(firstList.current.offsetTop);
         var width = firstList.current.offsetWidth;
+        setMarkerWidth(width < 38 ? 38 : width);
     }, [])
 
 
