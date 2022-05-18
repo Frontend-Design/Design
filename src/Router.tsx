@@ -7,6 +7,7 @@ import NeonLightBtn from "./Components/NeonLightBtn/NeonLightBtn";
 import Wavify from "./Components/Wavify/Wavify";
 import ScrollEffects from "./Pages/ScrollEffects/ScrollEffectsPage";
 import MenuIndicator from "./Components/MenuIndicator/MenuIndicator";
+import Menu_3D from "./Components/Menu_3D/Menu_3D";
 
 export default function Router() {
     return (
@@ -17,8 +18,9 @@ export default function Router() {
             <Route path="/neonlightbtn" element={<NeonLightBtn />} />
             <Route path="/cylinder" element={<Cyilnder />} />
             <Route path="/colorfulrain" element={<ColorfulRain />} />
-            <Route path="/scrolleffects" element={<ScrollEffects />} />
             <Route path="/menuindicator" element={<MenuIndicator />} />
+            <Route path="/menu_3d" element={<Menu_3D />} />
+            <Route path="/scrolleffects" element={<ScrollEffects />} />
         </Routes>
     );
 }

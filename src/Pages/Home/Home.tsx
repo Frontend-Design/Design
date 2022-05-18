@@ -10,6 +10,7 @@ export default function Home() {
             <Link to='/cylinder'>3D Cylinder</Link>
             <Link to='/colorfulrain'>Colorful Rain</Link>
             <Link to='/menuindicator'>Arrow Menu Indicator</Link>
+            <Link to='/menu_3d'>Isometric 3D Menu Effects</Link>
             <Link to='/scrolleffects'>Scroll Effects Page</Link>
         </HomeLayer>
     );
