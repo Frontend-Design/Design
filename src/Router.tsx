@@ -8,6 +8,7 @@ import Wavify from "./Components/Wavify/Wavify";
 import ScrollEffects from "./Pages/ScrollEffects/ScrollEffectsPage";
 import MenuIndicator from "./Components/MenuIndicator/MenuIndicator";
 import Menu_3D from "./Components/Menu_3D/Menu_3D";
+import BackgroundAnimation from "./Components/BackgroundAnimation/BackgroundAnimation";
 
 export default function Router() {
     return (
@@ -20,6 +21,7 @@ export default function Router() {
             <Route path="/colorfulrain" element={<ColorfulRain />} />
             <Route path="/menuindicator" element={<MenuIndicator />} />
             <Route path="/menu_3d" element={<Menu_3D />} />
+            <Route path="/bganimation" element={<BackgroundAnimation />} />
             <Route path="/scrolleffects" element={<ScrollEffects />} />
         </Routes>
     );
