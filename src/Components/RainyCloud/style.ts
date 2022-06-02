@@ -1,34 +1,27 @@
 import styled from "styled-components";
-import { createGlobalStyle } from "styled-components";
 
 type placedprop = {
   num: number;
 };
 
-const GlobalStyle = createGlobalStyle`
-  * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-  } 
-  body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      background: #181c1f;
-  }
+export const bg = styled.div`
+  width: 100%;
+  height: 100vh;
+  background: #181c1f;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const Container = styled.div`
-  position: relative;
-  height: 400px;
+  height: 350px;
   border-bottom: 2px solid #fff;
 `;
 
 export const Cloud = styled.div`
   position: relative;
-  top: 50px;
+  /* top: 50px; */
   width: 320px;
   height: 100px;
   background: #fff;
@@ -78,5 +71,3 @@ export const Rains = styled.span<placedprop>`
     }
   }
 `;
-
-export default GlobalStyle;

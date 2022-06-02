@@ -1,5 +1,4 @@
 import * as S from "./style";
-import GlobalStyle from "./style";
 
 export default function RainyCloud() {
   const nums: Array<number> = [
@@ -8,16 +7,17 @@ export default function RainyCloud() {
   ];
   return (
     <>
-      <GlobalStyle />
-      <S.Container>
-        <S.Cloud>
-          <S.Rain>
-            {nums.map((e) => {
-              return <S.Rains num={e}></S.Rains>;
-            })}
-          </S.Rain>
-        </S.Cloud>
-      </S.Container>
+      <S.bg>
+        <S.Container>
+          <S.Cloud>
+            <S.Rain>
+              {nums.map((e) => {
+                return <S.Rains num={e}></S.Rains>;
+              })}
+            </S.Rain>
+          </S.Cloud>
+        </S.Container>
+      </S.bg>
     </>
   );
 }
