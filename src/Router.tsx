@@ -10,6 +10,7 @@ import MenuIndicator from "./Components/MenuIndicator/MenuIndicator";
 import Menu_3D from "./Components/Menu_3D/Menu_3D";
 import BackgroundAnimation from "./Components/BackgroundAnimation/BackgroundAnimation";
 import RainyCloud from "./Components/RainyCloud";
+import NavigationMenu from "./Components/NavigationMenu";
 
 export default function Router() {
   return (
@@ -25,6 +26,7 @@ export default function Router() {
       <Route path="/bganimation" element={<BackgroundAnimation />} />
       <Route path="/scrolleffects" element={<ScrollEffects />} />
       <Route path="/rainycloud" element={<RainyCloud />} />
+      <Route path="/NavigationMenu" element={<NavigationMenu />} />
     </Routes>
   );
 }

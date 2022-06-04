@@ -21,7 +21,6 @@ export const Container = styled.div`
 
 export const Cloud = styled.div`
   position: relative;
-  /* top: 50px; */
   width: 320px;
   height: 100px;
   background: #fff;
