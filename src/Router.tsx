@@ -11,6 +11,7 @@ import Menu_3D from "./Components/Menu_3D/Menu_3D";
 import BackgroundAnimation from "./Components/BackgroundAnimation/BackgroundAnimation";
 import RainyCloud from "./Components/RainyCloud";
 import NavigationMenu from "./Components/NavigationMenu";
+import { CheckBox } from "./Components/CheckBox";
 
 export default function Router() {
   return (
@@ -27,6 +28,7 @@ export default function Router() {
       <Route path="/scrolleffects" element={<ScrollEffects />} />
       <Route path="/rainycloud" element={<RainyCloud />} />
       <Route path="/NavigationMenu" element={<NavigationMenu />} />
+      <Route path="/CheckBox" element={<CheckBox />} />
     </Routes>
   );
 }
