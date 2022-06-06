@@ -16,6 +16,7 @@ export default function Home() {
       <Link to="/rainycloud">RainyCloud</Link>
       <Link to="/NavigationMenu">NavigationMenu</Link>
       <Link to="/CheckBox">CheckBox</Link>
+      <Link to="/LightCube">LightCube</Link>
     </HomeLayer>
   );
 }
