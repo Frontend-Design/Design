@@ -14,6 +14,9 @@ export default function Home() {
       <Link to="/bganimation">Background Image Loop Animation</Link>
       <Link to="/scrolleffects">Scroll Effects Page</Link>
       <Link to="/rainycloud">RainyCloud</Link>
+      <Link to="/NavigationMenu">NavigationMenu</Link>
+      <Link to="/CheckBox">CheckBox</Link>
+      <Link to="/LightCube">LightCube</Link>
     </HomeLayer>
   );
 }
