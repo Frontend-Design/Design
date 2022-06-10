@@ -13,6 +13,7 @@ import RainyCloud from "./Components/RainyCloud";
 import NavigationMenu from "./Components/NavigationMenu";
 import { CheckBox } from "./Components/CheckBox";
 import { LightCube } from "./Components/LightCube";
+import WaterDropEffect from "./Components/WaterDropEffect";
 
 export default function Router() {
   return (
@@ -31,6 +32,7 @@ export default function Router() {
       <Route path="/NavigationMenu" element={<NavigationMenu />} />
       <Route path="/CheckBox" element={<CheckBox />} />
       <Route path="/LightCube" element={<LightCube />} />
+      <Route path="/WaterDrop" element={<WaterDropEffect />} />
     </Routes>
   );
 }
