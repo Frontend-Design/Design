@@ -18,6 +18,7 @@ export default function Home() {
       <Link to="/CheckBox">CheckBox</Link>
       <Link to="/LightCube">LightCube</Link>
       <Link to="/WaterDrop">WaterDrop</Link>
+      <Link to="/MilkEffect">MilkEffect</Link>
     </HomeLayer>
   );
 }
