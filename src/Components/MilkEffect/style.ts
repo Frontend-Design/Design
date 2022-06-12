@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Wave from "react-wavify";
 
 type placedprop = {
   num: number;
@@ -72,4 +73,12 @@ export const span = styled.div<placedprop>`
       transform: rotate(0deg) translateX(120px);
     }
   }
+`;
+
+export const FigureWave = styled(Wave)``;
+
+export const WaterWave = styled(Wave)`
+  position: fixed;
+  height: 50vh;
+  bottom: 0;
 `;
