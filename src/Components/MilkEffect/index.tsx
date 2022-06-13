@@ -31,8 +31,6 @@ export default function MilkEffect() {
         fill="#fff"
         options={{ height: 200, amplitude: 600, points: 4 }}
       />
-      {/* <S.WavifyLayout> */}
-      {/* </S.WavifyLayout> */}
     </>
   );
 }
