@@ -19,6 +19,7 @@ export default function Home() {
       <Link to="/LightCube">LightCube</Link>
       <Link to="/WaterDrop">WaterDrop</Link>
       <Link to="/MilkEffect">MilkEffect</Link>
+      <Link to="2DTo3D">2DTo3D</Link>
     </HomeLayer>
   );
 }
