@@ -16,6 +16,7 @@ import { LightCube } from "./Components/LightCube";
 import WaterDropEffect from "./Components/WaterDropEffect";
 import MilkEffect from "./Components/MilkEffect";
 import { TwoDToTHRD } from "./Components/2Dto3D";
+import SpinAnimation from "./Components/AnimationEffects";
 
 export default function Router() {
   return (
@@ -37,6 +38,7 @@ export default function Router() {
       <Route path="/WaterDrop" element={<WaterDropEffect />} />
       <Route path="/MilkEffect" element={<MilkEffect />} />
       <Route path="/2DTo3D" element={<TwoDToTHRD />} />
+      <Route path="/SpinAnimation" element={<SpinAnimation />} />
     </Routes>
   );
 }
