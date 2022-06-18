@@ -22,6 +22,7 @@ export default function Home() {
       <Link to="/2DTo3D">2DTo3D</Link>
       <Link to="/SpinAnimation">Spin</Link>
       <Link to="/NeumorphismAnimation">NeumorphisAnimation</Link>
+      <Link to="/DotAnimation">DotAnimation</Link>
     </HomeLayer>
   );
 }

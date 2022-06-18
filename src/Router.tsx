@@ -18,6 +18,7 @@ import MilkEffect from "./Components/MilkEffect";
 import { TwoDToTHRD } from "./Components/2Dto3D";
 import SpinAnimation from "./Components/AnimationEffects";
 import NeumorphismAnimation from "./Components/NeumorphismAnimation";
+import DotAnimation from "./Components/ DotAnimation";
 
 export default function Router() {
   return (
@@ -41,6 +42,7 @@ export default function Router() {
       <Route path="/2DTo3D" element={<TwoDToTHRD />} />
       <Route path="/SpinAnimation" element={<SpinAnimation />} />
       <Route path="/NeumorphismAnimation" element={<NeumorphismAnimation />} />
+      <Route path="/DotAnimation" element={<DotAnimation />} />
     </Routes>
   );
 }
