@@ -21,6 +21,7 @@ import NeumorphismAnimation from "./Components/NeumorphismAnimation";
 import DotAnimation from "./Components/ DotAnimation";
 import Energe from "./Components/EnergyBall ";
 import EnergeBall from "./Components/EnergyBall ";
+import RocketAnimation from "./Components/RocketAnimation";
 
 export default function Router() {
   return (
@@ -46,6 +47,7 @@ export default function Router() {
       <Route path="/NeumorphismAnimation" element={<NeumorphismAnimation />} />
       <Route path="/DotAnimation" element={<DotAnimation />} />
       <Route path="/EnergeBall" element={<EnergeBall />} />
+      <Route path="/RocketAnimation" element={<RocketAnimation />} />
     </Routes>
   );
 }

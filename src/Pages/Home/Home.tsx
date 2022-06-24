@@ -24,6 +24,7 @@ export default function Home() {
       <Link to="/NeumorphismAnimation">NeumorphisAnimation</Link>
       <Link to="/DotAnimation">DotAnimation</Link>
       <Link to="/EnergeBall">EnergeBall</Link>
+      <Link to="/RocketAnimation">RocketAnimation</Link>
     </HomeLayer>
   );
 }
