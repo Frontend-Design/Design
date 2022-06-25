@@ -22,6 +22,7 @@ import DotAnimation from "./Components/ DotAnimation";
 import Energe from "./Components/EnergyBall ";
 import EnergeBall from "./Components/EnergyBall ";
 import RocketAnimation from "./Components/RocketAnimation";
+import Radar from "./Components/Radar";
 
 export default function Router() {
   return (
@@ -48,6 +49,7 @@ export default function Router() {
       <Route path="/DotAnimation" element={<DotAnimation />} />
       <Route path="/EnergeBall" element={<EnergeBall />} />
       <Route path="/RocketAnimation" element={<RocketAnimation />} />
+      <Route path="/Radar" element={<Radar />} />
     </Routes>
   );
 }

@@ -25,6 +25,7 @@ export default function Home() {
       <Link to="/DotAnimation">DotAnimation</Link>
       <Link to="/EnergeBall">EnergeBall</Link>
       <Link to="/RocketAnimation">RocketAnimation</Link>
+      <Link to="/Radar">Radar</Link>
     </HomeLayer>
   );
 }
