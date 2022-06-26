@@ -23,6 +23,7 @@ import Energe from "./Components/EnergyBall ";
 import EnergeBall from "./Components/EnergyBall ";
 import RocketAnimation from "./Components/RocketAnimation";
 import Radar from "./Components/Radar";
+import LogoRadar from "./Components/LogoRadar";
 
 export default function Router() {
   return (
@@ -50,6 +51,7 @@ export default function Router() {
       <Route path="/EnergeBall" element={<EnergeBall />} />
       <Route path="/RocketAnimation" element={<RocketAnimation />} />
       <Route path="/Radar" element={<Radar />} />
+      <Route path="/LogoRadar" element={<LogoRadar />} />
     </Routes>
   );
 }
