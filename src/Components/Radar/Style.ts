@@ -38,7 +38,6 @@ export const loader = styled.div`
     position: absolute;
     width: 100px;
     height: 100px;
-    /* inset: 90px; */
     border-radius: 50%;
     border: 3px dashed #666;
     box-shadow: inset -5px -5px 25px rgba(0, 0, 0, 0.25),
