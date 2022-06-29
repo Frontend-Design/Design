@@ -1,4 +1,3 @@
-import { BlobOptions } from "buffer";
 import styled from "styled-components";
 
 type placedprop = {

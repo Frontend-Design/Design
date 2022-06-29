@@ -27,6 +27,7 @@ export default function Home() {
       <Link to="/RocketAnimation">RocketAnimation</Link>
       <Link to="/Radar">Radar</Link>
       <Link to="/LogoRadar">LogoRadar</Link>
+      <Link to="/OceanView">OceanView</Link>
     </HomeLayer>
   );
 }
