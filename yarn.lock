@@ -8927,6 +8927,11 @@
   dependencies:
     "isexe" "^2.0.0"
 
+"windows-battery@^1.0.2":
+  "integrity" "sha512-xVHQoHmRtp0AI29VGEq7lRHr+7InS+YkvsxzXsdMljSjBFBazTz+AjZVXDqG9taIf2FVTRsIB9W/6MPhiJwk0A=="
+  "resolved" "https://registry.npmjs.org/windows-battery/-/windows-battery-1.0.2.tgz"
+  "version" "1.0.2"
+
 "word-wrap@^1.2.3", "word-wrap@~1.2.3":
   "integrity" "sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ=="
   "resolved" "https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.3.tgz"
