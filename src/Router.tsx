@@ -26,6 +26,7 @@ import Radar from "./Components/Radar";
 import LogoRadar from "./Components/LogoRadar";
 import OceanView from "./Components/OceanView";
 import SliceIMG from "./Components/SliceIMG";
+import TextAnimation from "./Components/TextAnimation";
 
 export default function Router() {
   return (
@@ -56,6 +57,7 @@ export default function Router() {
       <Route path="/LogoRadar" element={<LogoRadar />} />
       <Route path="/OceanView" element={<OceanView />} />
       <Route path="/SliceIMG" element={<SliceIMG />} />
+      <Route path="/TextAnimation" element={<TextAnimation />} />
     </Routes>
   );
 }
