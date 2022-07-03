@@ -1,4 +1,4 @@
-import * as S from "./Stlyes";
+import * as S from "./style";
 
 export default function Energe() {
   const list = [

@@ -19,14 +19,15 @@ import { TwoDToTHRD } from "./Components/2Dto3D";
 import SpinAnimation from "./Components/AnimationEffects";
 import NeumorphismAnimation from "./Components/NeumorphismAnimation";
 import DotAnimation from "./Components/ DotAnimation";
-import Energe from "./Components/EnergyBall ";
-import EnergeBall from "./Components/EnergyBall ";
+import Energe from "./Components/EnergyBall";
+import EnergeBall from "./Components/EnergyBall";
 import RocketAnimation from "./Components/RocketAnimation";
 import Radar from "./Components/Radar";
 import LogoRadar from "./Components/LogoRadar";
 import OceanView from "./Components/OceanView";
 import SliceIMG from "./Components/SliceIMG";
 import TextAnimation from "./Components/TextAnimation";
+import LoadingAnimation from "./Components/LoadingAnimation";
 
 export default function Router() {
   return (
@@ -58,6 +59,7 @@ export default function Router() {
       <Route path="/OceanView" element={<OceanView />} />
       <Route path="/SliceIMG" element={<SliceIMG />} />
       <Route path="/TextAnimation" element={<TextAnimation />} />
+      <Route path="/LoadingAnimation" element={<LoadingAnimation />} />
     </Routes>
   );
 }
