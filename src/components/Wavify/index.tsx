@@ -20,6 +20,3 @@ export default function Wavify() {
         </S.WavifyLayout>
     );
 }
-
-// npm i react-wavify
-// yarn add react-wavify

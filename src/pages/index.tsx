@@ -29,8 +29,9 @@ const Home: NextPage = () => {
         <Link href="/design/radar">radar</Link>
         <Link href="/design/logoRadar">Logo Radar</Link>
         <Link href="/design/oceanView">Ocean View</Link>
-        <Link href="/design/sliceImg">SliceImg</Link>
+        <Link href="/design/sliceImg">Slice Img</Link>
         <Link href="/design/textAnimation">Text Animation</Link>
+        <Link href="/design/loadingAnimation">Loading Animation</Link>
       </div>
 
       <style jsx>{`
