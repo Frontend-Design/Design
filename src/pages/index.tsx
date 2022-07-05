@@ -1,5 +1,5 @@
-import type { NextPage } from 'next'
-import Link from 'next/link'
+import type { NextPage } from "next";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -31,17 +31,18 @@ const Home: NextPage = () => {
         <Link href="/design/oceanView">Ocean View</Link>
         <Link href="/design/sliceImg">SliceImg</Link>
         <Link href="/design/textAnimation">Text Animation</Link>
+        <Link href="/design/loadingAnimation">Loading Animation</Link>
       </div>
 
       <style jsx>{`
-        div{
+        div {
           display: flex;
           flex-direction: column;
           gap: 10px;
         }
       `}</style>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
