@@ -17,7 +17,7 @@ export const Loader = styled.div`
   align-items: center;
 `;
 
-export const Sapn = styled.span`
+export const Span = styled.span`
   position: absolute;
   top: 0;
   left: 0;

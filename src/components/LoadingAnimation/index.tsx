@@ -4,9 +4,9 @@ export default function LoadingAnimation() {
   return (
     <S.bg>
       <S.Loader>
-        <S.Sapn></S.Sapn>
-        <S.Sapn></S.Sapn>
-        <S.Sapn></S.Sapn>
+        <S.Span></S.Span>
+        <S.Span></S.Span>
+        <S.Span></S.Span>
         <S.title>Loading...</S.title>
       </S.Loader>
     </S.bg>
