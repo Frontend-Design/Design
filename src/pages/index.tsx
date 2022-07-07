@@ -32,6 +32,7 @@ const Home: NextPage = () => {
         <Link href="/design/sliceImg">SliceImg</Link>
         <Link href="/design/textAnimation">Text Animation</Link>
         <Link href="/design/loadingAnimation">Loading Animation</Link>
+        <Link href="/design/allowButtonAnimation">AllowButtonAnimation</Link>
       </div>
 
       <style jsx>{`

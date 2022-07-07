@@ -30,7 +30,7 @@ export const Box = styled.div`
     font-size: 10em;
     color: #fff;
     white-space: nowrap;
-    line-height: 100vh;
+    line-height: 70vh;
     cursor: default;
     animation: animate 60s linear infinite;
     @keyframes animate {
