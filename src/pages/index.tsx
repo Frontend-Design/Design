@@ -37,6 +37,7 @@ const Home: NextPage = () => {
         <Link href="/design/wavyCirclelLoaderAnimation">
           WavyCircleLoaderAnimation
         </Link>
+        <Link href="/design/boxShadowLoading">BoxShadowLoading</Link>
       </div>
 
       <style jsx>{`
