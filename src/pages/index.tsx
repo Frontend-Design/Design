@@ -34,10 +34,9 @@ const Home: NextPage = () => {
         <Link href="/design/loadingAnimation">Loading Animation</Link>
         <Link href="/design/allowButtonAnimation">AllowButtonAnimation</Link>
         <Link href="/design/noiseEffect">NoiseEffect</Link>
-        <Link href="/design/wavyCirclelLoaderAnimation">
-          WavyCircleLoaderAnimation
-        </Link>
+        <Link href="/design/wavyCirclelLoaderAnimation">WavyCircleLoaderAnimation</Link>
         <Link href="/design/boxShadowLoading">BoxShadowLoading</Link>
+        <Link href="/design/cursorEffect">Cursor Effect</Link>
       </div>
 
       <style jsx>{`

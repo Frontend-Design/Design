@@ -29,7 +29,7 @@ export default function OceanView() {
             <S.Main>
                 <video autoPlay={true} loop={true} muted={true}>
                     <source
-                        src={`${publicUrl}/video.mp4`} // 영상 출처: https://www.pexels.com/video/drawing-a-large-heart-figure-on-the-sand-of-a-seashore-3094026/
+                        src={`${publicUrl}/video/video.mp4`} // 영상 출처: https://www.pexels.com/video/drawing-a-large-heart-figure-on-the-sand-of-a-seashore-3094026/
                         type="video/mp4"
                     ></source>
                 </video>
