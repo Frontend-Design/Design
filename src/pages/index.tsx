@@ -38,6 +38,7 @@ const Home: NextPage = () => {
         <Link href="/design/boxShadowLoading">BoxShadowLoading</Link>
         <Link href="/design/cursorEffect">Cursor Effect</Link>
         <Link href="/design/infinityLoading">Infinity Loading</Link>
+        <Link href="/design/videoCube">Video Cube</Link>
       </div>
 
       <style jsx>{`
