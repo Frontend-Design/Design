@@ -43,9 +43,11 @@ const Home: NextPage = () => {
 
       <style jsx>{`
         div {
-          display: flex;
+          display: inline-flex;
           flex-direction: column;
+          flex-wrap: wrap;
           gap: 10px;
+          max-height: 100vh;
         }
       `}</style>
     </>
