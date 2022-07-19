@@ -44,12 +44,6 @@ export const Dot = styled.div`
 `
 
 export const Circle = styled.circle`
-    /* position: fixed;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    transform: translate(-20px,-20px);
-    pointer-events: none; */
     fill: #D2330F;
     animation: animate 3s linear infinite;
 
