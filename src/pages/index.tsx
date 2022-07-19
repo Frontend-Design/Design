@@ -34,17 +34,20 @@ const Home: NextPage = () => {
         <Link href="/design/loadingAnimation">Loading Animation</Link>
         <Link href="/design/allowButtonAnimation">AllowButtonAnimation</Link>
         <Link href="/design/noiseEffect">NoiseEffect</Link>
-        <Link href="/design/wavyCirclelLoaderAnimation">
-          WavyCircleLoaderAnimation
-        </Link>
+        <Link href="/design/wavyCirclelLoaderAnimation">WavyCircleLoaderAnimation</Link>
         <Link href="/design/boxShadowLoading">BoxShadowLoading</Link>
+        <Link href="/design/cursorEffect">Cursor Effect</Link>
+        <Link href="/design/infinityLoading">Infinity Loading</Link>
+        <Link href="/design/videoCube">Video Cube</Link>
       </div>
 
       <style jsx>{`
         div {
-          display: flex;
+          display: inline-flex;
           flex-direction: column;
+          flex-wrap: wrap;
           gap: 10px;
+          max-height: 100vh;
         }
       `}</style>
     </>
