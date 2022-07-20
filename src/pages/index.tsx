@@ -42,6 +42,7 @@ const Home: NextPage = () => {
         <Link href="/design/cursorEffect">Cursor Effect</Link>
         <Link href="/design/infinityLoading">Infinity Loading</Link>
         <Link href="/design/videoCube">Video Cube</Link>
+        <Link href="/design/spinFont">SpinFont</Link>
       </div>
 
       <style jsx>{`
