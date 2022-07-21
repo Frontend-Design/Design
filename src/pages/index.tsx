@@ -43,6 +43,7 @@ const Home: NextPage = () => {
         <Link href="/design/infinityLoading">Infinity Loading</Link>
         <Link href="/design/videoCube">Video Cube</Link>
         <Link href="/design/spinFont">SpinFont</Link>
+        <Link href="/design/loadingAnimationTwo">LoadingAnimationTwo</Link>
       </div>
 
       <style jsx>{`
