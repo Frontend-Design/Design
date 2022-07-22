@@ -44,6 +44,7 @@ const Home: NextPage = () => {
         <Link href="/design/videoCube">Video Cube</Link>
         <Link href="/design/spinFont">SpinFont</Link>
         <Link href="/design/loadingAnimationTwo">LoadingAnimationTwo</Link>
+        <Link href="/design/withRangeSlider">WithRangeSlider</Link>
       </div>
 
       <style jsx>{`
