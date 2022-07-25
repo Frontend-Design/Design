@@ -49,6 +49,7 @@ const Home: NextPage = () => {
         <Link href="/design/glowingLoadingAnimation">
           GlowingLoadingAnimation
         </Link>
+        <Link href="/design/shadowEffects">ShadowEffects</Link>
       </div>
 
       <style jsx>{`
