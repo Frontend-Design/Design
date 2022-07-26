@@ -50,6 +50,7 @@ const Home: NextPage = () => {
           GlowingLoadingAnimation
         </Link>
         <Link href="/design/shadowEffects">ShadowEffects</Link>
+        <Link href="/design/glowingTextAnimation">GlowingTextAnimation</Link>
       </div>
 
       <style jsx>{`
