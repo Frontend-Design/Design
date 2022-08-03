@@ -58,6 +58,7 @@ const Home: NextPage = () => {
         <Link href="/design/hotCup">HotCup</Link>
         <Link href="/design/mousemoveAnimation">MousemoveAnimation</Link>
         <Link href="/design/fireTextAnimation">FireTextAnimation</Link>
+        <Link href="/design/popupBox">PopupBox</Link>
       </div>
 
       <style jsx>{`
