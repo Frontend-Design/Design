@@ -23,7 +23,6 @@ export const container = styled.div<ActiceType>`
   justify-content: center;
   align-items: center;
   ::before {
-    ${(e) => (e.active ? "transition-delay:5s;" : "")}
     opacity: ${(e) => (e.active ? " 1" : "0")};
     content: "";
     position: absolute;
@@ -33,6 +32,7 @@ export const container = styled.div<ActiceType>`
     background: #37444b;
     border-radius: 5px;
     transform: rotate(45deg);
+    transition: ${(e) => (e.active ? "0.5s" : "")};
   }
 `;
 
@@ -56,11 +56,11 @@ export const toggleBtn = styled.div<ActiceType>`
 `;
 
 export const content = styled.div<ActiceType>`
-  transition-delay: ${(e) => (e.active ? " 5s" : "")};
   min-width: 400px;
   padding: 40px;
   color: #fff;
   opacity: ${(e) => (e.active ? " 1" : "0")};
   transition: 0.5s;
+  transition-delay: ${(e) => (e.active ? " 0.5s" : "")};
   transform: ${(e) => (e.active ? " scale(1)" : "scale(0)")};
 `;
