@@ -60,6 +60,7 @@ const Home: NextPage = () => {
         <Link href="/design/fireTextAnimation">FireTextAnimation</Link>
         <Link href="/design/popupBox">PopupBox</Link>
         <Link href="/design/heartAnimation">HeartAnimation</Link>
+        <Link href="/design/customRange">CustomRange</Link>
       </div>
 
       <style jsx>{`
