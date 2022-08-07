@@ -62,6 +62,7 @@ const Home: NextPage = () => {
         <Link href="/design/heartAnimation">HeartAnimation</Link>
         <Link href="/design/customRange">CustomRange</Link>
         <Link href="/design/gradientLoading">GradientLoading</Link>
+        <Link href="/design/deleteButton">DeleteButton</Link>
       </div>
 
       <style jsx>{`
