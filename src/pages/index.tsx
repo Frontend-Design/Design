@@ -64,6 +64,7 @@ const Home: NextPage = () => {
         <Link href="/design/gradientLoading">GradientLoading</Link>
         <Link href="/design/deleteButton">DeleteButton</Link>
         <Link href="/design/smoothAnimatedBlob">SmoothAnimatedBlob</Link>
+        <Link href="/design/glowingTubelightText">GlowingTubelightText</Link>
       </div>
 
       <style jsx>{`
