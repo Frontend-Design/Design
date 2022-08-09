@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import image from "../../../public/img/rain.jpg"
 
 type StyledProps = {
     delay: string;
@@ -23,7 +24,7 @@ export const Banner = styled.div`
     flex-wrap: wrap;
 `
 
-export const Block = styled.div<StyledProps>`
+export const Blocks = styled.div<StyledProps>`
     position: relative;
     display: block;
     width: ${props => { return 100 / props.length + "vw" }};
@@ -38,7 +39,7 @@ export const Block = styled.div<StyledProps>`
         animation-delay: ${props => props.delay};
     }
     &:nth-child(7n+1) { // (1,8,15,22,30...7n+1)번째의 자식요소
-        animation: animate 2s ease-in-out forwards;
+        animation: animate 1.6s ease-in-out forwards;
         animation-delay: ${props => props.delay};
     }
     &:nth-child(7n) { // (7,14,21,28,35...7n)번째의 자식요소
@@ -48,13 +49,23 @@ export const Block = styled.div<StyledProps>`
     
     @keyframes animate {
         0%{
-            transform: scale(0) translateY(1000px);
+            opacity: 0;
+            top: 0px;
+        }
+        50%{
+            background: no-repeat url("/img/rain.jpg");
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            top: 300px;
         }
         100%{
             opacity: 1;
-            transform: scale(1) translateY(0px);
+            background: no-repeat url("/img/rain.jpg");
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            top: 0;
         }
     }
-
-
 `
