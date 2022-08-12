@@ -67,6 +67,7 @@ const Home: NextPage = () => {
         <Link href="/design/glowingTubelightText">GlowingTubelightText</Link>
         <Link href="/design/glassCard">GlassCard</Link>
         <Link href="/design/menuToggleIcon">MenuToggleIcon</Link>
+        <Link href="/design/liquidLoader">LiquidLoader</Link>
       </div>
 
       <style jsx>{`
