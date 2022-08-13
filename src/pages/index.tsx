@@ -68,6 +68,7 @@ const Home: NextPage = () => {
         <Link href="/design/glassCard">GlassCard</Link>
         <Link href="/design/menuToggleIcon">MenuToggleIcon</Link>
         <Link href="/design/liquidLoader">LiquidLoader</Link>
+        <Link href="/design/gradientShadowLoader">GradientShadowLoader</Link>
       </div>
 
       <style jsx>{`
