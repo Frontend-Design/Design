@@ -70,6 +70,7 @@ const Home: NextPage = () => {
         <Link href="/design/liquidLoader">LiquidLoader</Link>
         <Link href="/design/gradientShadowLoader">GradientShadowLoader</Link>
         <Link href="/design/colourTypeTextEffects">ColourTypeTextEffects</Link>
+        <Link href="/design/websiteCard">WebsiteCard</Link>
       </div>
 
       <style jsx>{`
