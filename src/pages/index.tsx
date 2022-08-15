@@ -71,6 +71,9 @@ const Home: NextPage = () => {
         <Link href="/design/gradientShadowLoader">GradientShadowLoader</Link>
         <Link href="/design/colourTypeTextEffects">ColourTypeTextEffects</Link>
         <Link href="/design/websiteCard">WebsiteCard</Link>
+        <Link href="/design/textTypingLoadingAnimation">
+          TextTypingLoadingAnimation
+        </Link>
       </div>
 
       <style jsx>{`
