@@ -74,6 +74,9 @@ const Home: NextPage = () => {
         <Link href="/design/textTypingLoadingAnimation">
           TextTypingLoadingAnimation
         </Link>
+        <Link href="/design/colorfulRotatingSquares">
+          ColorfulRotatingSquares
+        </Link>
       </div>
 
       <style jsx>{`
