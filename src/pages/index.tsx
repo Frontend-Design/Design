@@ -78,6 +78,7 @@ const Home: NextPage = () => {
           ColorfulRotatingSquares
         </Link>
         <Link href="/design/safariLogo">SafariLogo</Link>
+        <Link href="/design/emailJoinButton">EmailJoinButton</Link>
       </div>
 
       <style jsx>{`
