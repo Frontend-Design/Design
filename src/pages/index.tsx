@@ -79,6 +79,7 @@ const Home: NextPage = () => {
         </Link>
         <Link href="/design/safariLogo">SafariLogo</Link>
         <Link href="/design/emailJoinButton">EmailJoinButton</Link>
+        <Link href="/design/rippleAnimation">RippleAnimation</Link>
       </div>
 
       <style jsx>{`
