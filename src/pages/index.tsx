@@ -80,6 +80,7 @@ const Home: NextPage = () => {
         <Link href="/design/safariLogo">SafariLogo</Link>
         <Link href="/design/emailJoinButton">EmailJoinButton</Link>
         <Link href="/design/rippleAnimation">RippleAnimation</Link>
+        <Link href="/design/keyboardKeys">KeyboardKeys</Link>
       </div>
 
       <style jsx>{`
