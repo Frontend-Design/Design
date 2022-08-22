@@ -81,6 +81,7 @@ const Home: NextPage = () => {
         <Link href="/design/emailJoinButton">EmailJoinButton</Link>
         <Link href="/design/rippleAnimation">RippleAnimation</Link>
         <Link href="/design/keyboardKeys">KeyboardKeys</Link>
+        <Link href="/design/textRotation">TextRotation</Link>
       </div>
 
       <style jsx>{`
