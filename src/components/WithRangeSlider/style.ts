@@ -3,6 +3,7 @@ import styled from "@emotion/styled";
 type FillRangeValueType = {
   Widht: number;
 };
+
 export const bg = styled.div`
   display: flex;
   justify-content: center;
@@ -15,7 +16,7 @@ export const Wrapper = styled.div`
   position: relative;
 `;
 
-export const rangeValue = styled.h2`
+export const RangeValue = styled.h2`
   position: relative;
   display: block;
   font-size: 6em;
@@ -27,7 +28,7 @@ export const rangeValue = styled.h2`
   }
 `;
 
-export const range = styled.input`
+export const Range = styled.input`
   position: relative;
   widows: 400px;
   height: 15px;
@@ -50,9 +51,8 @@ export const range = styled.input`
   }
 `;
 
-export const fillRangeValue = styled.div<FillRangeValueType>`
+export const FillRangeValue = styled.div<FillRangeValueType>`
   --i: ${(e) => e.Widht + "%"};
-
   position: fixed;
   top: 0;
   left: 0;

@@ -6,9 +6,9 @@ export default function WithRangeSlider() {
   return (
     <S.bg>
       <S.Wrapper>
-        <S.rangeValue>{value}</S.rangeValue>
-        <S.fillRangeValue Widht={value}></S.fillRangeValue>
-        <S.range
+        <S.RangeValue>{value}</S.RangeValue>
+        <S.FillRangeValue Widht={value}></S.FillRangeValue>
+        <S.Range
           type="range"
           name=""
           value={value}

@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 
-type Span = {
+type SpanType = {
   num: number;
 };
 
@@ -114,7 +114,7 @@ export const Vapour = styled.div`
   padding: 0 20px;
 `;
 
-export const Span = styled.span<Span>`
+export const Span = styled.span<SpanType>`
   position: relative;
   bottom: 50px;
   display: block;

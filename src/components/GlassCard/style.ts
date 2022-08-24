@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 
-type SpnaType = {
+type SpanType = {
   num: number;
 };
 
@@ -18,7 +18,7 @@ export const Card = styled.div`
   align-items: center;
 `;
 
-export const Span = styled.span<SpnaType>`
+export const Span = styled.span<SpanType>`
   --i: ${(e) => e.num};
   position: absolute;
   top: 0;
