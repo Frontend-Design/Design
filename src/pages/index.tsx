@@ -42,6 +42,47 @@ const Home: NextPage = () => {
         <Link href="/design/cursorEffect">Cursor Effect</Link>
         <Link href="/design/infinityLoading">Infinity Loading</Link>
         <Link href="/design/videoCube">Video Cube</Link>
+        <Link href="/design/spinFont">SpinFont</Link>
+        <Link href="/design/loadingAnimationTwo">LoadingAnimationTwo</Link>
+        <Link href="/design/withRangeSlider">WithRangeSlider</Link>
+        <Link href="/design/wavyTextAnimation">WavyTextAnimation</Link>
+        <Link href="/design/glowingLoadingAnimation">
+          GlowingLoadingAnimation
+        </Link>
+        <Link href="/design/shadowEffects">ShadowEffects</Link>
+        <Link href="/design/glowingTextAnimation">GlowingTextAnimation</Link>
+        <Link href="/design/blackFridayBanner">BlackFridayBanner</Link>
+        <Link href="/design/ringOfFire">RingOfFire</Link>
+        <Link href="/design/bubbleAnimation">BubbleAnimation</Link>
+        <Link href="/design/glowingAppleAnimation">GlowingAppleAnimation</Link>
+        <Link href="/design/hotCup">HotCup</Link>
+        <Link href="/design/mousemoveAnimation">MousemoveAnimation</Link>
+        <Link href="/design/fireTextAnimation">FireTextAnimation</Link>
+        <Link href="/design/popupBox">PopupBox</Link>
+        <Link href="/design/heartAnimation">HeartAnimation</Link>
+        <Link href="/design/customRange">CustomRange</Link>
+        <Link href="/design/gradientLoading">GradientLoading</Link>
+        <Link href="/design/deleteButton">DeleteButton</Link>
+        <Link href="/design/smoothAnimatedBlob">SmoothAnimatedBlob</Link>
+        <Link href="/design/glowingTubelightText">GlowingTubelightText</Link>
+        <Link href="/design/glassCard">GlassCard</Link>
+        <Link href="/design/menuToggleIcon">MenuToggleIcon</Link>
+        <Link href="/design/liquidLoader">LiquidLoader</Link>
+        <Link href="/design/gradientShadowLoader">GradientShadowLoader</Link>
+        <Link href="/design/colourTypeTextEffects">ColourTypeTextEffects</Link>
+        <Link href="/design/websiteCard">WebsiteCard</Link>
+        <Link href="/design/textTypingLoadingAnimation">
+          TextTypingLoadingAnimation
+        </Link>
+        <Link href="/design/colorfulRotatingSquares">
+          ColorfulRotatingSquares
+        </Link>
+        <Link href="/design/safariLogo">SafariLogo</Link>
+        <Link href="/design/emailJoinButton">EmailJoinButton</Link>
+        <Link href="/design/rippleAnimation">RippleAnimation</Link>
+        <Link href="/design/keyboardKeys">KeyboardKeys</Link>
+        <Link href="/design/textRotation">TextRotation</Link>
+        <Link href="/design/qRCodeScanner">QRCodeScanner</Link>
       </div>
 
       <style jsx>{`
