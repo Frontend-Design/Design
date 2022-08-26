@@ -84,6 +84,7 @@ const Home: NextPage = () => {
         <Link href="/design/textRotation">TextRotation</Link>
         <Link href="/design/qRCodeScanner">QRCodeScanner</Link>
         <Link href="/design/boxAnimation">BoxAnimation</Link>
+        <Link href="/design/focusTextHover">FocusTextHover</Link>
       </div>
 
       <style jsx>{`
