@@ -85,6 +85,7 @@ const Home: NextPage = () => {
         <Link href="/design/qRCodeScanner">QRCodeScanner</Link>
         <Link href="/design/boxAnimation">BoxAnimation</Link>
         <Link href="/design/focusTextHover">FocusTextHover</Link>
+        <Link href="/design/colorfulBowl">ColorfulBowl</Link>
       </div>
 
       <style jsx>{`
