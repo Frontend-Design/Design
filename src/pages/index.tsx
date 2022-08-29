@@ -87,6 +87,7 @@ const Home: NextPage = () => {
         <Link href="/design/focusTextHover">FocusTextHover</Link>
         <Link href="/design/colorfulBowl">ColorfulBowl</Link>
         <Link href="/design/modernToggleButton">ModernToggleButton</Link>
+        <Link href="/design/smokeText">SmokeText</Link>
       </div>
 
       <style jsx>{`
