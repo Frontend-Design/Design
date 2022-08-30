@@ -88,6 +88,7 @@ const Home: NextPage = () => {
         <Link href="/design/colorfulBowl">ColorfulBowl</Link>
         <Link href="/design/modernToggleButton">ModernToggleButton</Link>
         <Link href="/design/smokeText">SmokeText</Link>
+        <Link href="/design/numberInput">NumberInput</Link>
       </div>
 
       <style jsx>{`
