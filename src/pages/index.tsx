@@ -90,6 +90,7 @@ const Home: NextPage = () => {
         <Link href="/design/smokeText">SmokeText</Link>
         <Link href="/design/numberInput">NumberInput</Link>
         <Link href="/design/loadingSpin">LoadingSpin</Link>
+        <Link href="/design/loaingBubbleAnimation">LoaingBubbleAnimation</Link>
       </div>
 
       <style jsx>{`
