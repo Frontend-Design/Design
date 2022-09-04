@@ -92,6 +92,7 @@ const Home: NextPage = () => {
         <Link href="/design/loadingSpin">LoadingSpin</Link>
         <Link href="/design/loaingBubbleAnimation">LoaingBubbleAnimation</Link>
         <Link href="/design/ghostTextTwo">GhostTextTwo</Link>
+        <Link href="/design/lightBoxAnimation">LightBoxAnimation</Link>
       </div>
 
       <style jsx>{`
