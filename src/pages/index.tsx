@@ -83,13 +83,6 @@ const Home: NextPage = () => {
         <Link href="/design/keyboardKeys">KeyboardKeys</Link>
         <Link href="/design/textRotation">TextRotation</Link>
         <Link href="/design/qRCodeScanner">QRCodeScanner</Link>
-        <Link href="/design/boxAnimation">BoxAnimation</Link>
-        <Link href="/design/focusTextHover">FocusTextHover</Link>
-        <Link href="/design/colorfulBowl">ColorfulBowl</Link>
-        <Link href="/design/modernToggleButton">ModernToggleButton</Link>
-        <Link href="/design/smokeText">SmokeText</Link>
-        <Link href="/design/numberInput">NumberInput</Link>
-        <Link href="/design/loadingSpin">LoadingSpin</Link>
       </div>
 
       <style jsx>{`
