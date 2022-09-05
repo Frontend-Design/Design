@@ -48,7 +48,7 @@ export const Qrcode = styled.div`
     inset: 20px;
     width: calc(100% - 40px);
     height: 2px;
-    background: #35fd5c; 
+    background: #35fd5c;
     filter: drop-shadow(0 0 20px #35fd5c) drop-shadow(0 0 60px #35fd5c);
     animation: animateLine 4s ease-in-out infinite;
   }
