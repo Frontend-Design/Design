@@ -8,7 +8,6 @@ export default function GhostTextTwo() {
         <S.Span>h</S.Span>
         <S.Span>o</S.Span>
         <S.Span>s</S.Span>
-        {/* <S.Span>t&nbsp&nbsp</S.Span> */}
         <S.Span>T</S.Span>
         <S.Span>e</S.Span>
         <S.Span>x</S.Span>
