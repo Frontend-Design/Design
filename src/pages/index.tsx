@@ -94,6 +94,9 @@ const Home: NextPage = () => {
         <Link href="/design/ghostTextTwo">GhostTextTwo</Link>
         <Link href="/design/lightBoxAnimation">LightBoxAnimation</Link>
         <Link href="/design/magicNavigationMenu">MagicNavigationMenu</Link>
+        <Link href="/design/magicNavigationMenuTwo">
+          MagicNavigationMenuTwo
+        </Link>
       </div>
 
       <style jsx>{`
