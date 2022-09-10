@@ -99,6 +99,9 @@ const Home: NextPage = () => {
         </Link>
         <Link href="/design/buttonHoverEffect">ButtonHoverEffect</Link>
         <Link href="/design/earth">Earth</Link>
+        <Link href="/design/magicNavigationMenuThr">
+          MagicNavigationMenuThr
+        </Link>
       </div>
 
       <style jsx>{`
