@@ -102,6 +102,7 @@ const Home: NextPage = () => {
         <Link href="/design/magicNavigationMenuThr">
           MagicNavigationMenuThr
         </Link>
+        <Link href="/design/textSpin">TextSpin</Link>
       </div>
 
       <style jsx>{`
