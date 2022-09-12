@@ -103,6 +103,9 @@ const Home: NextPage = () => {
           MagicNavigationMenuThr
         </Link>
         <Link href="/design/textSpin">TextSpin</Link>
+        <Link href="/design/neumorphismGradientLoading">
+          NeumorphismGradientLoading
+        </Link>
       </div>
 
       <style jsx>{`
