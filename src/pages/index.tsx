@@ -107,6 +107,7 @@ const Home: NextPage = () => {
           NeumorphismGradientLoading
         </Link>
         <Link href="/design/buttonRippleEffect">ButtonRippleEffect</Link>
+        <Link href="/design/simpleMusicPlayer">SimpleMusicPlayer</Link>
       </div>
 
       <style jsx>{`
