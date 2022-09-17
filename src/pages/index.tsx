@@ -109,6 +109,7 @@ const Home: NextPage = () => {
         <Link href="/design/buttonRippleEffect">ButtonRippleEffect</Link>
         <Link href="/design/simpleMusicPlayer">SimpleMusicPlayer</Link>
         <Link href="/design/clock">Clock</Link>
+        <Link href="/design/newsTicker">NewsTicker</Link>
       </div>
 
       <style jsx>{`
