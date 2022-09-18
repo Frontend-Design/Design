@@ -111,6 +111,7 @@ const Home: NextPage = () => {
         <Link href="/design/clock">Clock</Link>
         <Link href="/design/newsTicker">NewsTicker</Link>
         <Link href="/design/swipeButton">SwipeButton</Link>
+        <Link href="/design/iPhone">IPhone</Link>
       </div>
 
       <style jsx>{`
