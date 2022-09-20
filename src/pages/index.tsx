@@ -112,6 +112,7 @@ const Home: NextPage = () => {
         <Link href="/design/newsTicker">NewsTicker</Link>
         <Link href="/design/swipeButton">SwipeButton</Link>
         <Link href="/design/iPhone">IPhone</Link>
+        <Link href="/design/changeFontsize">ChangeFontsize</Link>
       </div>
 
       <style jsx>{`
