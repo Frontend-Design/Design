@@ -115,6 +115,7 @@ const Home: NextPage = () => {
         <Link href="/design/changeFontsize">ChangeFontsize</Link>
         <Link href="/design/pixelImage">PixelImage</Link>
         <Link href="/design/rotatingImage">RotatingImage</Link>
+        <Link href="/design/rotatingImageTwo">RotatingImageTwo</Link>
       </div>
 
       <style jsx>{`
