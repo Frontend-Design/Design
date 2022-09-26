@@ -107,6 +107,17 @@ const Home: NextPage = () => {
           NeumorphismGradientLoading
         </Link>
         <Link href="/design/buttonRippleEffect">ButtonRippleEffect</Link>
+        <Link href="/design/simpleMusicPlayer">SimpleMusicPlayer</Link>
+        <Link href="/design/clock">Clock</Link>
+        <Link href="/design/newsTicker">NewsTicker</Link>
+        <Link href="/design/swipeButton">SwipeButton</Link>
+        <Link href="/design/iPhone">IPhone</Link>
+        <Link href="/design/changeFontsize">ChangeFontsize</Link>
+        <Link href="/design/pixelImage">PixelImage</Link>
+        <Link href="/design/rotatingImage">RotatingImage</Link>
+        <Link href="/design/rotatingImageTwo">RotatingImageTwo</Link>
+        <Link href="/design/rotatingImageThr">RotatingImageThr</Link>
+        <Link href="/design/digitalClock">DigitalClock</Link>
       </div>
 
       <style jsx>{`

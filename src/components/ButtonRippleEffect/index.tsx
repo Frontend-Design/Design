@@ -9,12 +9,6 @@ export default function ButtonRippleEffect() {
   const [point, setPoint] = useState<PoinType>({ x: 0, y: 0 });
   const [chekBtn, setCheckBtn] = useState(0);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setCheckBtn(0);
-    }, 1000);
-  }, [point, chekBtn]);
-
   return (
     <S.bg>
       <S.Button
@@ -25,6 +19,9 @@ export default function ButtonRippleEffect() {
             y: e.clientY - e.target.offsetTop,
           });
           setCheckBtn(1);
+          setTimeout(() => {
+            setCheckBtn(0);
+          }, 1000);
         }}
       >
         Button
@@ -38,6 +35,9 @@ export default function ButtonRippleEffect() {
             y: e.clientY - e.target.offsetTop,
           });
           setCheckBtn(2);
+          setTimeout(() => {
+            setCheckBtn(0);
+          }, 1000);
         }}
       >
         Button
