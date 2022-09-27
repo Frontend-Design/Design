@@ -118,6 +118,7 @@ const Home: NextPage = () => {
         <Link href="/design/rotatingImageTwo">RotatingImageTwo</Link>
         <Link href="/design/rotatingImageThr">RotatingImageThr</Link>
         <Link href="/design/digitalClock">DigitalClock</Link>
+        <Link href="/design/radialMenu">RadialMenu</Link>
       </div>
 
       <style jsx>{`
