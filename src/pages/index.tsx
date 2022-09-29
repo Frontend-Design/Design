@@ -120,6 +120,7 @@ const Home: NextPage = () => {
         <Link href="/design/digitalClock">DigitalClock</Link>
         <Link href="/design/radialMenu">RadialMenu</Link>
         <Link href="/design/upDoenLoading">UpDoenLoading</Link>
+        <Link href="/design/sVGAnimtion">SVGAnimtion</Link>
       </div>
 
       <style jsx>{`
