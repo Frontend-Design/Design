@@ -126,6 +126,7 @@ const Home: NextPage = () => {
           RotationAnimationEffects
         </Link>
         <Link href="/design/cubesHoverEffects">CubesHoverEffects</Link>
+        <Link href="/design/lightBulbAnimation">LightBulbAnimation</Link>
       </div>
 
       <style jsx>{`
