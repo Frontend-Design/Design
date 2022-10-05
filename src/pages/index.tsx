@@ -118,6 +118,15 @@ const Home: NextPage = () => {
         <Link href="/design/rotatingImageTwo">RotatingImageTwo</Link>
         <Link href="/design/rotatingImageThr">RotatingImageThr</Link>
         <Link href="/design/digitalClock">DigitalClock</Link>
+        <Link href="/design/radialMenu">RadialMenu</Link>
+        <Link href="/design/upDoenLoading">UpDoenLoading</Link>
+        <Link href="/design/sVGAnimtion">SVGAnimtion</Link>
+        <Link href="/design/coolHoverEffects">CoolHoverEffects</Link>
+        <Link href="/design/rotationAnimationEffects">
+          RotationAnimationEffects
+        </Link>
+        <Link href="/design/cubesHoverEffects">CubesHoverEffects</Link>
+        <Link href="/design/lightBulbAnimation">LightBulbAnimation</Link>
       </div>
 
       <style jsx>{`
