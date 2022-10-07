@@ -127,6 +127,9 @@ const Home: NextPage = () => {
         </Link>
         <Link href="/design/cubesHoverEffects">CubesHoverEffects</Link>
         <Link href="/design/lightBulbAnimation">LightBulbAnimation</Link>
+        <Link href="/design/userAccountDropdownMenu">
+          UserAccountDropdownMenu
+        </Link>
       </div>
 
       <style jsx>{`
