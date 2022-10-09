@@ -131,6 +131,7 @@ const Home: NextPage = () => {
           UserAccountDropdownMenu
         </Link>
         <Link href="/design/sidebarMenu">SidebarMenu</Link>
+        <Link href="/design/animatedLogin">AnimatedLogin</Link>
       </div>
 
       <style jsx>{`
