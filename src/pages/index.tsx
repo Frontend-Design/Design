@@ -132,6 +132,7 @@ const Home: NextPage = () => {
         </Link>
         <Link href="/design/sidebarMenu">SidebarMenu</Link>
         <Link href="/design/animatedLogin">AnimatedLogin</Link>
+        <Link href="/design/listDesign">ListDesign</Link>
       </div>
 
       <style jsx>{`
