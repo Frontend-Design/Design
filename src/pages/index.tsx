@@ -134,6 +134,7 @@ const Home: NextPage = () => {
         <Link href="/design/animatedLogin">AnimatedLogin</Link>
         <Link href="/design/listDesign">ListDesign</Link>
         <Link href="/design/liquidLoader2">LiquidLoader</Link>
+        <Link href="/design/searchBox">SearchBox</Link>
       </div>
 
       <style jsx>{`
