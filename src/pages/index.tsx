@@ -137,6 +137,7 @@ const Home: NextPage = () => {
         <Link href="/design/searchBox">SearchBox</Link>
         <Link href="/design/wavyLoader">WavyLoader</Link>
         <Link href="/design/customCheckbox">CustomCheckbox</Link>
+        <Link href="/design/cornerText">CornerText</Link>
       </div>
 
       <style jsx>{`

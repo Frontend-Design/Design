@@ -30,7 +30,7 @@ export const Input = styled.input`
 
     ::after {
       border: 12px;
-      height: 16px;
+      height: 16 px;
       border-bottom-left-radius: 15px;
       border-bottom-right-radius: 15px;
       background: #05be05;
