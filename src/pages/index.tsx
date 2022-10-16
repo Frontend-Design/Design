@@ -138,6 +138,7 @@ const Home: NextPage = () => {
         <Link href="/design/wavyLoader">WavyLoader</Link>
         <Link href="/design/customCheckbox">CustomCheckbox</Link>
         <Link href="/design/cornerText">CornerText</Link>
+        <Link href="/design/exploreButton">ExploreButton</Link>
       </div>
 
       <style jsx>{`
