@@ -139,6 +139,7 @@ const Home: NextPage = () => {
         <Link href="/design/customCheckbox">CustomCheckbox</Link>
         <Link href="/design/cornerText">CornerText</Link>
         <Link href="/design/exploreButton">ExploreButton</Link>
+        <Link href="/design/imageHoverOverlay">ImageHoverOverlay</Link>
       </div>
 
       <style jsx>{`
