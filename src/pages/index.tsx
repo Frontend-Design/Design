@@ -141,6 +141,7 @@ const Home: NextPage = () => {
         <Link href="/design/exploreButton">ExploreButton</Link>
         <Link href="/design/imageHoverOverlay">ImageHoverOverlay</Link>
         <Link href="/design/animatedBackgrounds">AnimatedBackgrounds</Link>
+        <Link href="/design/toggleTransformicons">ToggleTransformicons</Link>
       </div>
 
       <style jsx>{`
