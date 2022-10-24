@@ -144,8 +144,8 @@ const Home: NextPage = () => {
         <Link href="/design/toggleTransformicons">ToggleTransformicons</Link>
         <Link href="/design/cardsHoverEffects">CardsHoverEffects</Link>
         <Link href="/design/3DBook">ThriDBook</Link>
+        <Link href="/design/spinBox">SpinBox</Link>
       </div>
-
       <style jsx>{`
         div {
           display: inline-flex;
