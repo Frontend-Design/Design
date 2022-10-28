@@ -145,6 +145,7 @@ const Home: NextPage = () => {
         <Link href="/design/cardsHoverEffects">CardsHoverEffects</Link>
         <Link href="/design/3DBook">ThriDBook</Link>
         <Link href="/design/spinBox">SpinBox</Link>
+        <Link href="/design/imgHover3D">ImgHover3D</Link>
       </div>
       <style jsx>{`
         div {
