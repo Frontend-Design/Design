@@ -152,6 +152,9 @@ const Home: NextPage = () => {
         <Link href="/design/zigZagBorder">ZigZagBorder</Link>
         <Link href="/design/triangleIMG">TriangleIMG</Link>
         <Link href="/design/textAnimationTwo">TextAnimationTwo</Link>
+        <Link href="/design/backgroundImageSizeChange">
+          BackgroundImageSizeChange
+        </Link>
       </div>
       <style jsx>{`
         div {
