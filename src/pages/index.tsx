@@ -155,6 +155,7 @@ const Home: NextPage = () => {
         <Link href="/design/backgroundImageSizeChange">
           BackgroundImageSizeChange
         </Link>
+        <Link href="/design/searchBar">SearchBar</Link>
       </div>
       <style jsx>{`
         div {
