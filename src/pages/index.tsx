@@ -156,6 +156,7 @@ const Home: NextPage = () => {
           BackgroundImageSizeChange
         </Link>
         <Link href="/design/searchBar">SearchBar</Link>
+        <Link href="/design/wavySectionAnimation">WavySectionAnimation</Link>
       </div>
       <style jsx>{`
         div {
