@@ -158,6 +158,7 @@ const Home: NextPage = () => {
         <Link href="/design/searchBar">SearchBar</Link>
         <Link href="/design/wavySectionAnimation">WavySectionAnimation</Link>
         <Link href="/design/waterDropHover">WaterDropHover</Link>
+        <Link href="/design/letterOpenAnimation">LetterOpenAnimation</Link>
       </div>
       <style jsx>{`
         div {
