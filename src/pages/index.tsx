@@ -160,6 +160,7 @@ const Home: NextPage = () => {
         <Link href="/design/waterDropHover">WaterDropHover</Link>
         <Link href="/design/letterOpenAnimation">LetterOpenAnimation</Link>
         <Link href="/design/customRadioButton">CustomRadioButton</Link>
+        <Link href="/design/buttonHoverEffects">ButtonHoverEffects</Link>
       </div>
       <style jsx>{`
         div {
