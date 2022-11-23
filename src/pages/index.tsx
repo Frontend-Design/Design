@@ -161,6 +161,7 @@ const Home: NextPage = () => {
         <Link href="/design/letterOpenAnimation">LetterOpenAnimation</Link>
         <Link href="/design/customRadioButton">CustomRadioButton</Link>
         <Link href="/design/buttonHoverEffects">ButtonHoverEffects</Link>
+        <Link href="/design/changeBackground">ChangeBackground</Link>
       </div>
       <style jsx>{`
         div {
