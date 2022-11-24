@@ -162,6 +162,7 @@ const Home: NextPage = () => {
         <Link href="/design/customRadioButton">CustomRadioButton</Link>
         <Link href="/design/buttonHoverEffects">ButtonHoverEffects</Link>
         <Link href="/design/changeBackground">ChangeBackground</Link>
+        <Link href="/design/glassMorphismUserCard">GlassMorphismUserCard</Link>
       </div>
       <style jsx>{`
         div {
