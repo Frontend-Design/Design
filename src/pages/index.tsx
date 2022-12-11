@@ -165,6 +165,7 @@ const Home: NextPage = () => {
         <Link href="/design/glassMorphismUserCard">GlassMorphismUserCard</Link>
         <Link href="/design/shootingStar">ShootingStar</Link>
         <Link href="/design/trickyShape">TrickyShape</Link>
+        <Link href="/design/menuHoverEffects">MenuHoverEffects</Link>
       </div>
       <style jsx>{`
         div {
